@@ -206,11 +206,21 @@
     
     /* 应用标签样式 */
     .app-tag {
-      @apply inline-block px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-700 mr-2 mb-2;
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+      border-radius: 9999px;
+      background-color: #f3f4f6;
+      color: #374151;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
     }
-    .app-tag-inclusive { @apply bg-inclusive/10 text-inclusive; }
-    .app-tag-ecosystem { @apply bg-ecosystem/10 text-ecosystem; }
-    .app-tag-professional { @apply bg-professional/10 text-professional; }
+    .app-tag-inclusive {
+        background-color: rgba(54, 211, 153, 0.1);
+        color: #36D399;
+    }
+    .app-tag-ecosystem { background-color: rgba(255, 159, 28, 0.1); color: #FF9F1C; }
+    .app-tag-professional { background-color: rgba(147, 51, 234, 0.1); color: #9333EA; }
     
     /* 模态框样式 */
     .modal {
@@ -702,7 +712,7 @@
           <h4 class="text-xl font-bold mb-6 text-center text-inclusive">典型应用案例："小店AI助手"赋能本地餐饮</h4>
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
-              <img src="https://picsum.photos/id/26/600/400" alt="DeepSeek本地餐饮AI助手" class="w-full h-auto rounded-xl shadow-md transition-transform duration-700 hover:scale-105">
+              <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.AaaRXYFVyWrTUKXTr0P4IQHaEJ?w=294&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3/600/400" alt="DeepSeek本地餐饮AI助手" class="w-full h-auto rounded-xl shadow-md transition-transform duration-700 hover:scale-105">
             </div>
             <div class="md:w-1/2">
               <ul class="space-y-4 text-gray-700">
@@ -794,7 +804,7 @@
           <h4 class="text-xl font-semibold mb-6 text-ecosystem">场景1：电商领域 - 与Shopify的"破界连接"</h4>
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2 overflow-hidden rounded-xl">
-              <img src="https://picsum.photos/id/0/600/400" alt="电商与AI融合示意图" class="w-full h-auto rounded-xl shadow-md transition-transform duration-700 hover:scale-105">
+              <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.gmFMFofMAY4wwsqafeRA1AHaFL?w=257&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3/600/400" alt="电商与AI融合示意图" class="w-full h-auto rounded-xl shadow-md transition-transform duration-700 hover:scale-105">
               
               <!-- 合作效果数据 -->
               <div class="mt-6 bg-gray-50 p-4 rounded-lg">
@@ -839,7 +849,7 @@
           <h4 class="text-xl font-semibold mb-6 text-ecosystem">场景2：医疗健康领域 - 与Cleveland Clinic的"智能咨询"</h4>
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2 overflow-hidden rounded-xl order-2 md:order-1">
-              <img src="https://picsum.photos/id/237/600/400" alt="ChatGPT医疗咨询示意图" class="w-full h-auto rounded-xl shadow-md transition-transform duration-700 hover:scale-105">
+              <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.wkYd9-3-pmkNSAd0xEGlUgAAAA?w=306&h=204&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3/600/400" alt="ChatGPT医疗咨询示意图" class="w-full h-auto rounded-xl shadow-md transition-transform duration-700 hover:scale-105">
               
               <!-- 医疗合作效果数据 -->
               <div class="mt-6 bg-gray-50 p-4 rounded-lg">
@@ -989,7 +999,7 @@
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover cursor-pointer modal-trigger" data-modal="professional-jpmorgan-modal">
           <div class="md:flex">
             <div class="md:w-1/2">
-              <img src="https://picsum.photos/id/180/600/800" alt="Claude金融风控案例" class="w-full h-full object-cover">
+              <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.YYWZIl_gOh9yIgHW-KbQsQHaE8?w=251&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3/180/600/800" alt="Claude金融风控案例" class="w-full h-full object-cover">
             </div>
             <div class="md:w-1/2 p-8">
               <div class="inline-block px-3 py-1 bg-professional/10 text-professional text-sm rounded-full mb-4">
@@ -1260,7 +1270,7 @@
                 <div class="grid md:grid-cols-2 gap-6">
                   <div class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
                     <div class="h-40 overflow-hidden">
-                      <img src="https://picsum.photos/id/48/600/400" alt="电商客服应用" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110">
+                      <img src="https://ts1.tc.mm.bing.net/th/id/R-C.3487a746d77f68e3e9cc2da6400f092e?rik=vM4tCx%2foMjXFfw&riu=http%3a%2f%2fimage.woshipm.com%2fwp-files%2f2018%2f11%2fQgYOhGYdDLXgPpbWBJuh.png&ehk=7zsSH87Mvqsu%2b6pSwB4L%2buMds1XPJgFYJEfH%2bOEz58Y%3d&risl=&pid=ImgRaw&r=0/600/400" alt="电商客服应用" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110">
                     </div>
                     <div class="p-5">
                       <h5 class="font-semibold mb-3 text-gray-800">电商智能客服</h5>
@@ -1270,7 +1280,7 @@
                   
                   <div class="bg-white rounded-xl shadow-sm overflow-hidden card-hover">
                     <div class="h-40 overflow-hidden">
-                      <img src="https://picsum.photos/id/24/600/400" alt="内容审核应用" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110">
+                      <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.hgE9R3BMEOI0lMDp33bmyQAAAA?w=171&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3/600/400" alt="内容审核应用" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110">
                     </div>
                     <div class="p-5">
                       <h5 class="font-semibold mb-3 text-gray-800">大规模内容审核</h5>
@@ -1339,7 +1349,7 @@
                 </div>
                 
                 <div class="md:w-1/2">
-                  <img src="https://picsum.photos/id/26/600/400" alt="小店AI助手案例背景" class="w-full h-64 object-cover rounded-xl mb-6">
+                  <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.-1cI44S08YL8BoHny_MkbwHaFv?w=241&h=187&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3" alt="小店AI助手案例背景" class="w-full h-64 object-cover rounded-xl mb-6">
                   
                   <div class="bg-inclusive/5 p-5 rounded-xl">
                     <h5 class="font-semibold mb-3 text-inclusive">项目目标</h5>
@@ -1457,7 +1467,7 @@
                 </div>
                 
                 <div class="md:w-1/2">
-                  <img src="https://picsum.photos/id/1/600/400" alt="Shopify与ChatGPT合作背景" class="w-full h-64 object-cover rounded-xl mb-6">
+                  <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.7lxzNugk_yPxJIWVD4IaMQHaED?w=235&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3/600/800" alt="Shopify与ChatGPT合作背景" class="w-full h-64 object-cover rounded-xl mb-6">
                 </div>
               </div>
             </div>
@@ -1574,7 +1584,7 @@
                 </div>
                 
                 <div class="md:w-1/2">
-                  <img src="https://picsum.photos/id/237/600/400" alt="ChatGPT医疗咨询合作" class="w-full h-64 object-cover rounded-xl mb-6">
+                  <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C._FG3qXz51BxAFhR0lJe2OgHaFc?w=205&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3/600/400" alt="ChatGPT医疗咨询合作" class="w-full h-64 object-cover rounded-xl mb-6">
                   
                   <div class="bg-ecosystem/5 p-5 rounded-xl">
                     <h5 class="font-semibold mb-3 text-ecosystem">合作目标</h5>
@@ -1738,7 +1748,7 @@
                             </div>
                             
                             <div class="md:w-1/2">
-                                <img src="https://picsum.photos/id/180/600/400" alt="摩根大通信用风险评估系统" class="w-full h-64 object-cover rounded-xl mb-6">
+                                <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.iExScP8Pu9Q-v1XkDlcttAHaDz?w=348&h=179&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3/600/400" alt="摩根大通信用风险评估系统" class="w-full h-64 object-cover rounded-xl mb-6">
                                 
                                 <div class="bg-professional/5 p-5 rounded-xl">
                                     <h5 class="font-semibold mb-3 text-professional">项目目标</h5>
@@ -2131,5 +2141,362 @@
     
     progressBars.forEach(bar => progressObserver.observe(bar));
   </script>
+    <!-- 三级模态框：AI客服聊天窗口 -->
+    <div id="ai-chat-modal" class="modal fixed inset-0 flex items-center justify-center bg-black/50 modal-backdrop">
+        <div class="modal-content bg-white rounded-xl shadow-2xl w-full max-w-md mx-4">
+            <div class="chat-window" id="chat-window">
+                <div class="chat-header">
+                    <span>在线客服</span>
+                    <button id="close-chat" class="close-button">×</button>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message received">
+                        <div>你好，有什么可以帮助你的？</div>
+                        <div class="message-time">10:00</div>
+                    </div>
+                </div>
+                <div class="chat-input-area">
+                    <textarea class="chat-input" placeholder="请输入消息..."></textarea>
+                    <button class="send-button">发送</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 聊天框样式 -->
+    <style>
+        .chat-window {
+            display: flex;
+            flex-direction: column;
+            height: 80vh;
+            max-height: 600px;
+            background-color: #f8f8f8;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background-color: #07c160;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .close-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background-color 0.2s ease;
+        }
+
+        .close-button:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .message {
+            max-width: 80%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            position: relative;
+            word-wrap: break-word;
+        }
+
+        .message.received {
+            background-color: white;
+            align-self: flex-start;
+            border-bottom-left-radius: 4px;
+        }
+
+        .message.sent {
+            background-color: #07c160;
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message-time {
+            font-size: 12px;
+            opacity: 0.7;
+            margin-top: 5px;
+            text-align: right;
+        }
+
+        .chat-input-area {
+            display: flex;
+            padding: 15px;
+            background-color: white;
+            border-top: 1px solid #e0e0e0;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            resize: none;
+            outline: none;
+            font-size: 15px;
+            max-height: 100px;
+            overflow-y: auto;
+        }
+
+        .chat-input:focus {
+            border-color: #07c160;
+        }
+
+        .send-button {
+            background-color: #07c160;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 0 20px;
+            cursor: pointer;
+            outline: none;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .send-button:hover {
+            background-color: #05a04a;
+        }
+
+        /* 客服按钮样式 */
+        .chat-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #07c160;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(7, 193, 96, 0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+
+        .chat-button:hover {
+            background-color: #05a04a;
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(7, 193, 96, 0.4);
+        }
+
+        /* 响应式设计 */
+        @media screen and (max-width: 768px) {
+            .modal-content {
+                width: 100%;
+                max-width: 100%;
+                max-height: 100vh;
+                border-radius: 0;
+            }
+            
+            .chat-window {
+                height: 100vh;
+                max-height: none;
+                border-radius: 0;
+            }
+        }
+    </style>
+
+    <!-- 聊天功能脚本 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 创建客服按钮
+            const chatButton = document.createElement('div');
+            chatButton.className = 'chat-button';
+            chatButton.innerHTML = '<i class="fa fa-comments text-xl"></i>';
+            document.body.appendChild(chatButton);
+            
+            // 获取模态框元素
+            const chatModal = document.getElementById('ai-chat-modal');
+            const closeChat = document.getElementById('close-chat');
+            const messagesContainer = document.getElementById('chat-messages');
+            const sendButton = document.querySelector('.send-button');
+            const chatInput = document.querySelector('.chat-input');
+            
+            // 显示模态框
+            function showModal() {
+                chatModal.classList.add('active');
+                // 暂停页面滚动
+                document.body.style.overflow = 'hidden';
+            }
+            
+            // 隐藏模态框
+            function hideModal() {
+                chatModal.classList.remove('active');
+                // 恢复页面滚动
+                document.body.style.overflow = '';
+            }
+            
+            // 绑定事件
+            chatButton.addEventListener('click', showModal);
+            closeChat.addEventListener('click', hideModal);
+            
+            // 点击模态框背景关闭
+            chatModal.addEventListener('click', function(e) {
+                if (e.target === chatModal) {
+                    hideModal();
+                }
+            });
+            
+            // 按ESC键关闭
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && chatModal.classList.contains('active')) {
+                    hideModal();
+                }
+            });
+            
+            // 构建多场景回复语料库
+            const replyCorpus = {
+                default: [
+                    "好的，我理解你的意思了，正在帮你核实~",
+                    "收到你的反馈啦，我先梳理下问题哈",
+                    "明白你的需求，稍等我帮你查看相关信息",
+                    "你的问题我记下了，马上为你处理",
+                    "别着急，我这就帮你对接相关信息"
+                ],
+                keywords: [
+                    {
+                        keys: ["退款", "退钱", "返还", "退费"],
+                        replies: [
+                            "关于退款问题，麻烦告诉我你的订单号，我帮你查进度~",
+                            "退款需要先核实订单状态哦，你方便提供下单手机号或订单号吗？",
+                            "好的，退款流程一般1-3个工作日，我先帮你确认是否已提交申请"
+                        ]
+                    },
+                    {
+                        keys: ["物流", "快递", "发货", "运输", "配送"],
+                        replies: [
+                            "稍等！我这就帮你查物流轨迹，你订单号是多少呀？",
+                            "物流信息可能有延迟，告诉我订单号，我帮你催一下快递小哥~",
+                            "发货后一般2-4天送达，你订单号多少？我查下具体位置"
+                        ]
+                    },
+                    {
+                        keys: ["产品", "故障", "坏了", "无法使用", "质量", "损坏"],
+                        replies: [
+                            "别担心！你先描述下产品具体的问题现象（比如报错/没反应），我帮你排查~",
+                            "产品故障可以先试试重启哦，要是不行的话，告诉我你的购买时间和型号",
+                            "质量问题我们会负责到底的，你先拍张问题照片发给我可以吗？"
+                        ]
+                    },
+                    {
+                        keys: ["咨询", "问题", "了解", "想知道", "询问"],
+                        replies: [
+                            "当然可以！你具体想了解哪方面呢？比如价格/功能/售后~",
+                            "你问的这个问题我很熟悉，不过需要先确认下你的使用场景哦",
+                            "没问题，你尽管问，我会尽量详细地解答"
+                        ]
+                    },
+                    {
+                        keys: ["投诉", "不满", "生气", "差评", "服务差"],
+                        replies: [
+                            "非常抱歉给你带来不好的体验，我马上为你升级处理~",
+                            "对不起让你生气了，我一定会帮你解决好这个问题",
+                            "实在抱歉，你的反馈我会严肃记录，现在我们一起解决问题好吗？"
+                        ]
+                    },
+                    {
+                        keys: ["会员", "VIP", "权益", "积分", "等级", "会员福利"],
+                        replies: [
+                            "你好呀！会员分为普通/黄金/钻石三个等级，你想了解哪类权益？比如积分兑换/专属折扣~",
+                            "会员积分100分可抵1元，还能兑换礼品哦，需要我查你的当前积分吗？",
+                            "黄金会员享9折优惠+免费退换货，钻石会员额外有专属客服，你当前是哪个等级呀？"
+                        ]
+                    },
+                    {
+                        keys: ["修改订单", "改地址", "换商品", "取消订单", "订单信息"],
+                        replies: [
+                            "订单发货前可以修改地址/商品哦，告诉我你的订单号，我帮你操作~",
+                            "取消订单需要先确认是否已付款，你订单号多少？我看下当前状态",
+                            "想换商品型号是吗？提供订单号后，我帮你查是否支持修改（未发货可改）"
+                        ]
+                    }
+                ]
+            };
+
+            // 关键词匹配+随机选择回复
+            function getSmartReply(message) {
+                // 优先匹配关键词
+                for (const group of replyCorpus.keywords) {
+                    if (group.keys.some(key => message.toLowerCase().includes(key))) {
+                        const randomIdx = Math.floor(Math.random() * group.replies.length);
+                        return group.replies[randomIdx];
+                    }
+                }
+                // 无匹配时用通用回复
+                const randomIdx = Math.floor(Math.random() * replyCorpus.default.length);
+                return replyCorpus.default[randomIdx];
+            }
+
+            // 发送消息核心逻辑
+            function sendMessage() {
+                const message = chatInput.value.trim();
+                if (!message) return;
+
+                // 渲染用户消息
+                const userMsgEl = document.createElement('div');
+                userMsgEl.className = 'message sent';
+                const currentTime = `${new Date().getHours()}:${String(new Date().getMinutes()).padStart(2, '0')}`;
+                userMsgEl.innerHTML = `
+                    <div>${message}</div>
+                    <div class="message-time">${currentTime}</div>
+                `;
+                messagesContainer.appendChild(userMsgEl);
+                chatInput.value = '';
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+                // 模拟"思考+打字"延迟（1-2.5秒随机）
+                const randomDelay = 1000 + Math.random() * 1500;
+                setTimeout(() => {
+                    const replyMsgEl = document.createElement('div');
+                    replyMsgEl.className = 'message received';
+                    const replyContent = getSmartReply(message);
+                    replyMsgEl.innerHTML = `
+                        <div>${replyContent}</div>
+                        <div class="message-time">${currentTime}</div>
+                    `;
+                    messagesContainer.appendChild(replyMsgEl);
+                    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+                }, randomDelay);
+            }
+
+            // 绑定事件
+            sendButton.addEventListener('click', sendMessage);
+            chatInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && !e.shiftKey) { // 禁止Shift+Enter换行触发发送
+                    e.preventDefault();
+                    sendMessage();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
